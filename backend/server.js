@@ -10,7 +10,7 @@ const app = express()
 // middleware
 app.use(cors(
   {
-    origin: {"https://workout-app-with-authentication-frontend.vercel.app/"},
+    origin: {"https://workout-app-frontend-ten.vercel.app/"},
     method: ["POST", "GET"],
     credentials: true
   }
