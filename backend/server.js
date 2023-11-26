@@ -8,13 +8,13 @@ const userRoutes = require('./routes/user')
 const app = express()
 
 // middleware
-app.use(cors(
-  {
-    origin: {"https://workout-app-with-authentication-frontend.vercel.app/"},
-    method: ["POST", "GET"],
-    credentials: true
-  }
-  ));
+// app.use(cors(
+//   {
+//     origin: {"https://workout-app-with-authentication-frontend.vercel.app/"},
+//     method: ["POST", "GET"],
+//     credentials: true
+//   }
+//   ));
 app.use(express.json())
 app.use((req, res, next) => {
   console.log(req.path, req.method)
