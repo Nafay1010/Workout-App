@@ -1,8 +1,4 @@
 {
-<<<<<<< HEAD
-  "proxy": "https://workout-app-backend-v2pw.onrender.com",
-=======
->>>>>>> 1e5cf894ece933769c3c1695367c5dfc49d32e6f
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
