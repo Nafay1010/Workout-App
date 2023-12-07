@@ -1,5 +1,5 @@
 {
-  "proxy": "https://workout-app-backend-theta.vercel.app",
+  "proxy": "https://workout-app-backend-v2pw.onrender.com",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
