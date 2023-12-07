@@ -11,7 +11,7 @@ export const useLogin = () =>{
         setLoading(true)
         setError(null)
 
-        const response = await fetch('https://workout-app-backend-v2pw.onrender.com/api/user/login',{
+        const response = await fetch('/api/user/login',{
             method: 'POST',
             body: JSON.stringify({email, password}),
             headers: {'Content-Type':'application/json'}
